@@ -1,0 +1,1149 @@
+/* Home section One css  starts ####################################################### */
+@import "../../styles/variables.scss";
+.HoneSectionSetUp {
+    background-color: $color_bg_primary_light;
+}
+
+.errors{
+    font-size: 11.5px;
+    padding-top: 5px;
+    text-align: center;
+    color: red;
+}
+
+.HoneSectionIcon {
+    width: 175px;
+}
+
+.HoneContentSet {
+    padding-left: 22px;
+}
+
+.HoneSectionTitle {
+    color: $color_bg_primary_dark;
+}
+
+.HoneSectionDes {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-top: 10px;
+    color: $color_text_dark_one;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 4;
+
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .HoneSectionTitle {
+        font-size: 46px;
+    }
+
+    .HoneSectionDes {
+        font-size: 26px;
+    }
+
+    .HoneSectionIcon {
+        width: 228px;
+    }
+
+    .HoneSectionSetUp {
+        padding: 5% !important;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .HoneSectionTitle {
+        font-size: 22px;
+    }
+
+    .HoneSectionDes {
+        font-size: 14px;
+    }
+
+    .HoneSectionIcon {
+        width: 128px;
+    }
+
+    .HoneSectionSetUp {
+        padding: 3% !important;
+    }
+}
+
+/* Home section One css  ends ############################################################ */
+
+/* Home section Two css  starts ####################################################### */
+.HtwoBackgroundSetUp {
+    background: linear-gradient(0deg, #edf2f9, $color_text_light_one);
+}
+
+.HtwoSectionTitle {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 3%;
+    color: $color_bg_primary_dark;
+}
+
+.HtwoSectionSubTitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: $color_text_dark_one ;
+}
+
+.HtwoSectionCard {
+    width: 100%;
+    background-color: $color_text_light_one;
+    padding: 60px 30px 35px 30px !important;
+    border: 0px;
+    cursor: pointer;
+    min-height: 360px;
+}
+
+.HtwoSectionCardImg {
+    width: 60px;
+    height: 60px;
+}
+
+.HtwoSectionCardTitle {
+    font-size: 20px;
+    color: $color_bg_primary_dark;
+    text-transform: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.HtwoSectionCardDes {
+    color: $color_text_dark_one;
+    line-height: 1.5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 4;
+
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .HtwoSectionCardImg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .HtwoSectionCardTitle {
+        font-size: 36px;
+    }
+
+    .HtwoSectionCardDes {
+        font-size: 26px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 4;
+    }
+
+    .HtwoSectionTitle {
+        font-size: 58px;
+    }
+
+    .HtwoSectionSubTitle {
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 1441px) and (max-width: 1780px) {
+    .HtwoSectionCard{
+        min-height: 560px;
+    }
+}
+@media screen and (min-width: 822px) and (max-width: 1024px) {
+    .HtwoSectionCard{
+        min-height: 460px;
+    }
+}
+@media screen and (min-width: 786px) and (max-width: 822px) {
+    .HtwoSectionCard{
+        min-height: 460px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 786px) {
+    .HtwoSectionCard{
+        min-height: 440px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .HtwoSectionCardImg {
+        width: 46px;
+        height: 46px;
+    }
+
+    .HtwoSectionCardTitle {
+        font-size: 20px;
+    }
+
+    .HtwoSectionCardDes {
+        font-size: 14px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 4;
+    }
+
+    .HtwoSectionTitle {
+        font-size: 38px;
+    }
+
+    .HtwoSectionSubTitle {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .HtwoSectionTitle {
+        font-size: 28px;
+    }
+
+    .HtwoSectionSubTitle {
+        font-size: 12px;
+    }
+}
+
+/* Home section Two css  Ends ####################################################### */
+
+/* Home section Three css  starts ####################################################### */
+
+.HtreSectoinContentGrp {
+    padding: 95px 0px 65px 20px !important;
+}
+
+.HtreSectionTitle {
+    font-size: 48px;
+    color: $color_text_light_one;
+    font-weight: 600;
+}
+
+.HtreSectionDes {
+    font-size: 20px;
+    color: rgb(243, 243, 243);
+    font-weight: 200;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 2;
+}
+
+.HtrebuttonSetUp {
+    background-color: $color_bg_primary_dark;
+    border: none;
+    border-radius: 40px;
+    color: $color_text_light_one;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.HtreBtnOne {
+    background-color: 262738;
+    color: $color_text_light_one;
+    font-weight: 600;
+}
+
+.HtreBtnOne:hover {
+    box-shadow: 0 6px 10px 0 #faf8f852, 0 19px 30px 0 rgba(231, 229, 229, 0.075);
+}
+
+.btnSetup {
+    padding-top: 22px;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .HtreSectionDes {
+        font-size: 30px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 2;
+    }
+
+    .HtrebuttonSetUp {
+        font-size: 25px;
+    }
+
+    .HtreSectionTitle {
+        font-size: 58px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .HtreSectionDes {
+        font-size: 16px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 3;
+    }
+
+    .HtrebuttonSetUp {
+        font-size: 12px;
+    }
+
+    .HtreSectionTitle {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .HtreSectionDes {
+        font-size: 12px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 3;
+    }
+
+    .HtrebuttonSetUp {
+        font-size: 12px;
+    }
+
+    .HtreSectionTitle {
+        font-size: 26px;
+    }
+
+    .btnSetup {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .HtreSectionDes {
+        font-size: 12px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 4;
+    }
+
+    .HtrebuttonSetUp {
+        font-size: 12px;
+        padding: 7px 25px;
+    }
+
+    .HtreSectionTitle {
+        font-size: 22px;
+    }
+
+    .btnSetup {
+        padding-top: 0px;
+    }
+
+    .HtreSectoinContentGrp {
+        padding: 95px 50px 65px 50px !important;
+    }
+}
+
+/* Home section Three css  Ends ####################################################### */
+
+/* Home section four css  start ####################################################### */
+
+.HfourSectionSetUp {
+    margin: 10px 0px 0px 0px !important;
+    //padding: 90px 0px 20px 0px !important;
+}
+
+.HfourSectionTitle {
+    font-size: 44px;
+    font-weight: 600;
+    color: $color_bg_primary_dark;
+}
+
+.HfourSectionSubTitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    color: $color_text_dark_one;
+}
+
+.HFourbuttonSetUp {
+    background-color: $color_text_light_one;
+    border: none;
+    border-radius: 40px;
+    color: $color_bg_primary_dark;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.HfourBtnOne {
+    background-color: $color_bg_primary_dark;
+    color: $color_text_light_one;
+    font-weight: 600;
+}
+
+.HfourBtnOne:hover {
+    box-shadow: 0 6px 10px 0 #38383852, 0 19px 30px 0 rgba(53, 52, 52, 0.075);
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .HfourSectionTitle {
+        font-size: 58px;
+    }
+
+    .HfourSectionSubTitle {
+        font-size: 22px;
+    }
+
+    .HFourbuttonSetUp {
+        padding: 20px 48px;
+        font-size: 30px;
+    }
+}
+
+/* Home section four css  ends ####################################################### */
+
+/* Home section five css  start ####################################################### */
+
+.HfiveVideoBtnSetup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hfiveSubTitle {
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $color_bg_primary_dark;
+}
+
+.hfiveTitle {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: $color_bg_primary_dark;
+    padding-bottom: 10px;
+}
+
+.hfiveSecTitle {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: $color_bg_primary_dark;
+    padding-bottom: 10px;
+}
+
+.hfiveDescription {
+    font-size: 17px;
+    font-weight: 400;
+    color: $color_text_dark_three;
+    line-height: 1.8;
+    //padding-bottom: 15px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 8;
+}
+
+.hfiveSecondDes {
+    font-size: 17px;
+    font-weight: 400;
+    color: $color_text_dark_three;
+    line-height: 1.8;
+    padding-bottom: 15px;
+}
+
+.HfivebuttonSetUp {
+    background-color: $color_text_light_one;
+    border: none;
+    border-radius: 40px;
+    color: $color_bg_primary_dark;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.HfiveBtnOne {
+    background-color: transparent;
+    color: $color_bg_primary_dark;
+    border: 2px solid $color_bg_primary_dark;
+    z-index: 5;
+    font-weight: 600;
+}
+
+.HfiveBtnOne:hover {
+    box-shadow: 0 6px 10px 0 #38383852, 0 19px 30px 0 rgba(53, 52, 52, 0.075);
+}
+
+.HfiveBtnTwo {
+    background-color: transparent;
+    color: $color_bg_primary_dark;
+    border: 2px solid $color_bg_primary_dark;
+    z-index: 5;
+    font-weight: 600;
+}
+
+.HfiveBtnTwo:hover {
+    box-shadow: 0 6px 10px 0 #faf8f852, 0 19px 30px 0 rgba(231, 229, 229, 0.075);
+}
+
+.HfiveContentGrp {
+    padding: 60px;
+}
+
+.hFiveUlItemSetup {
+    color: $color_text_dark_three;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.HfiveContentGrpTwo {
+    padding: 84px;
+}
+
+.bgimageSetup {
+    height: 580px;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .hfiveSubTitle {
+        font-size: 28px;
+    }
+
+    .hfiveTitle {
+        font-size: 48px;
+    }
+
+    .hfiveSecTitle {
+        font-size: 48px;
+    }
+
+    .bgimageSetup {
+        height: 680px;
+    }
+
+    .hfiveDescription {
+        font-size: 24px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 8;
+    }
+
+    .HfivebuttonSetUp {
+        font-size: 22px;
+    }
+
+    .hfiveSecondDes {
+        font-size: 22px;
+    }
+
+    .hFiveUlItemSetup {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hfiveSubTitle {
+        font-size: 14px;
+    }
+
+    .hfiveTitle {
+        font-size: 28px;
+    }
+
+    .hfiveSecTitle {
+        font-size: 28px;
+    }
+
+    .bgimageSetup {
+        height: 600px;
+    }
+
+    .hfiveDescription {
+        font-size: 16px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 9;
+    }
+
+    .HfivebuttonSetUp {
+        font-size: 14px;
+    }
+
+    .hfiveSecondDes {
+        font-size: 16px;
+    }
+
+    .hFiveUlItemSetup {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .hfiveSubTitle {
+        font-size: 12px;
+    }
+
+    .hfiveTitle {
+        font-size: 22px;
+    }
+
+    .hfiveSecTitle {
+        font-size: 22px;
+    }
+
+    .bgimageSetup {
+        height: 600px;
+    }
+
+    .hfiveDescription {
+        font-size: 14px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp:9 ;
+    }
+
+    .HfivebuttonSetUp {
+        font-size: 10px;
+        padding: 5px 7px;
+    }
+
+    .hfiveSecondDes {
+        font-size: 12px;
+    }
+
+    .hFiveUlItemSetup {
+        font-size: 10px;
+    }
+
+    .HfiveContentGrp {
+        padding: 36px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .hFiveUlItemSetup {
+        font-size: 12px;
+    }
+
+    .hfiveSecondDes {
+        font-size: 13px;
+    }
+
+    .hfiveTitle {
+        font-size: 22px;
+    }
+
+    .hfiveSecTitle {
+        font-size: 22px;
+    }
+
+    .HfivebuttonSetUp {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+
+.homeSectionFiveBg{
+    background-color: $color_bg_primary_light ;
+}
+
+/* Home section five css  end ####################################################### */
+
+/* Home section six css  start ####################################################### */
+.hSixIocnSetup {
+    padding: 105px 0px 105px 0px !important;
+    background-color: $color_bg_primary_light;
+}
+
+.hSixquote {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+    font-style: normal;
+    color:$color_text_dark_three;
+}
+
+.hSixNameSection {
+    font-size: 22px;
+    font-style: normal;
+    margin-top: 27px;
+    color: $color_bg_primary_dark;
+}
+
+.hSixDesigSection {
+    display: block;
+    font-size: 15px;
+    color: #525a70;
+}
+
+.hSixContentGrp {
+    padding: 54px;
+}
+
+.hSixShadows {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .hSixquote {
+        font-size: 40px;
+    }
+
+    .hSixNameSection {
+        font-size: 32px;
+    }
+
+    .hSixDesigSection {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hSixquote {
+        font-size: 24px;
+    }
+
+    .hSixNameSection {
+        font-size: 18px;
+    }
+
+    .hSixDesigSection {
+        font-size: 13px;
+    }
+
+    .hSixContentGrp {
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .hSixquote {
+        font-size: 18px;
+    }
+
+    .hSixNameSection {
+        font-size: 14px;
+    }
+
+    .hSixDesigSection {
+        font-size: 8px;
+    }
+
+    .hSixContentGrp {
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .hSixquote {
+        font-size: 18px;
+    }
+
+    .hSixNameSection {
+        font-size: 14px;
+    }
+
+    .hSixDesigSection {
+        font-size: 8px;
+    }
+
+    .hSixContentGrp {
+        padding: 30px;
+    }
+}
+
+/* Home section six css  end ####################################################### */
+
+/* Home section seven css  start ####################################################### */
+.HsevenSectionTitle {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 4%;
+    color: $color_bg_primary_dark;
+}
+
+.HsevenSectionSubTitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: $color_text_dark_one ;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .HsevenSectionTitle {
+        font-size: 58px;
+    }
+
+    .HsevenSectionSubTitle {
+        font-size: 22px;
+    }
+}
+
+// .HsevenCrdSet {
+//     padding: 18px;
+// }
+
+/* Home section seven css  end ####################################################### */
+/* Home section eight css  start ####################################################### */
+
+.hEhtTitle {
+    font-size: 48px;
+    font-weight: 600;
+    color: $color_text_light_one;
+    padding-top: 128px;
+}
+
+.hEhtDes {
+    font-size: 20px;
+    color: $color_text_light_two;
+    line-height: 1.5;
+    font-weight: 200;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp:4 ;
+
+
+}
+
+.hEhtNameSection {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: $color_text_light_one;
+    padding-top: 6px;
+}
+
+.hEhtDesigSection {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: $color_text_light_two;
+}
+
+.hEhtContentSet {
+    padding: 10px 136px 0px 136px
+}
+
+.carouselIndicator {
+    bottom: -98px;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .hEhtDes {
+        font-size: 34px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp:6 ;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .hEhtNameSection {
+        font-size: 28px;
+    }
+
+    .hEhtDesigSection {
+        font-size: 18px;
+    }
+
+    .carouselIndicator {
+        bottom: -59px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .hEhtTitle {
+        padding-top: 90px;
+    }
+
+    .hEhtDes {
+        font-size: 16px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp:6 ;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .hEhtTitle {
+        padding-top: 90px;
+    }
+
+    .hEhtDes {
+        font-size: 16px;
+    }
+
+    .hEhtContentSet {
+        padding: 10px 33px 0px 33px;
+    }
+}
+
+/* Home section eight css  ends ####################################################### */
+
+/* Home section Nine css  start ####################################################### */
+.hNineContentSet {
+    padding: 120px 0px 60px 0px !important;
+}
+
+.hNineTitle {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: $color_bg_primary_dark;
+}
+
+.hNineSubTitle {
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: $color_text_dark_one;
+}
+
+.hNineCrdSetup {
+    border: 0px !important;
+}
+
+.hNineCrdMainContent {
+    font-size: 40px;
+    color: $color_bg_primary_dark;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.hNineCrdSubContent {
+    font-size: 18px;
+    color: #626d7c;
+}
+
+.hNineCrdContentSet {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .hNineTitle {
+        font-size: 58px;
+    }
+
+    .hNineSubTitle {
+        font-size: 22px;
+    }
+
+    .hNineCrdSubContent {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .hNineCrdSubContent {
+        font-size: 14px;
+    }
+
+    .hNineCrdMainContent {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .hNineCrdSubContent {
+        font-size: 8px;
+    }
+
+    .hNineCrdMainContent {
+        font-size: 18px;
+    }
+
+    .hNineTitle {
+        font-size: 32px;
+    }
+}
+
+/* Home section Nine css  ends ####################################################### */
+
+/* Home section Ten css  start ####################################################### */
+.hTenSetup {
+    background-color: $color_text_light_one;
+}
+
+.hTenAlignSetup {
+    padding: 90px 0px 90px 0px !important;
+}
+
+.hTenFrmAlignSetup {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hTenContentSet {
+    padding: 80px 40px 80px 40px;
+}
+
+.hTenTitle {
+    font-size: 40px;
+    font-weight: 600;
+    color: $color_bg_primary_dark;
+    padding-bottom: 10px;
+}
+
+.hTenDes {
+    font-size: 18px;
+    font-weight: 200;
+    color: #626d7c;
+    padding-top: 10px;
+    line-height: 1.5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp:5 ;
+
+
+}
+
+.hTenFormInput {
+    border: 0px !important;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: $color_bg_primary_light;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+.HtenbuttonSetUp {
+    background-color: $color_text_light_one;
+    border: none;
+    border-radius: 40px;
+    color: $color_bg_primary_dark;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.HtenBtnOne {
+    background-color: $color_bg_primary_dark;
+    color: $color_text_light_one;
+    border: 2px solid $color_text_light_one;
+    z-index: 5;
+    font-weight: 600;
+}
+
+.HtenBtnOne:hover {
+    box-shadow: 0 6px 10px 0 #38383852, 0 19px 30px 0 rgba(53, 52, 52, 0.075);
+}
+
+.hTenDivider {
+    width: 10%;
+    border-top: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .hTenDes {
+        font-size: 24px;
+    }
+
+    .HtenbuttonSetUp {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .hTenTitle {
+        font-size: 26px;
+    }
+
+    .hTenDes {
+        font-size: 14px;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp:7 ;
+    }
+
+    .HtenbuttonSetUp {
+        font-size: 11px;
+    }
+
+    .hTenAlignSetup {
+        padding: 60px 0px 90px 0px !important;
+    }
+}

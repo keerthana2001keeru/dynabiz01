@@ -1,0 +1,118 @@
+@import "../../styles/variables.scss";
+
+.HcardTwoSetUp {
+    border: 0px !important;
+    width: 90%;
+    margin: 5%;
+}
+
+.HcardTwoFooter {
+    background-color: $color_text_light_one !important;
+    padding: 12px 36px 12px 36px !important;
+}
+
+.hCrdTwoSubTitle {
+    color: #525a70;
+    letter-spacing: 2px;
+}
+
+.hCrdTwoTitle {
+    font-size: 21px;
+    font-weight: 600;
+    color: $color_bg_primary_dark;
+    padding-bottom: 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: auto;
+    overflow: hidden;
+}
+
+.hCrdTwoDes {
+    color: $color_text_dark_one;
+    margin-bottom: 20px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    width: auto;
+    overflow: hidden;
+}
+
+.hCrdTwoContentGrp {
+    padding: 36px;
+}
+
+.hCrdTwoFooterText {
+    font-size: 10px;
+    font-weight: 600;
+    color: $color_text_dark_two;
+    letter-spacing: 2px;
+}
+
+.HcrdTwoImgZoom {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.HcrdTwoImgZoom::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 0;
+}
+
+.HcrdTwoImgZoom:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 350ms;
+}
+
+.Crdimg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.HcrdTwoImgZoom:hover .Crdimg {
+    cursor: pointer;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.5);
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .hCrdTwoTitle {
+        font-size: 34px;
+    }
+
+    .hCrdTwoDe {
+        font-size: 28px;
+    }
+
+    .hCrdTwoFooterText {
+        font-size: 17px;
+    }
+
+    .hCrdTwoSubTitle {
+        font-size: 18px;
+    }
+}
