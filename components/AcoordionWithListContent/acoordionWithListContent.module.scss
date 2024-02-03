@@ -1,0 +1,86 @@
+@import "../../styles/variables.scss";
+.accordion_button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+}
+
+.accordion_button::after {
+    order: -1;
+    margin-left: 0;
+    margin-right: 0.5em;
+    content: "+";
+    padding: 20px;
+    color: $color_text_light_one;
+    background-color: #313787;
+    transform: scale(1) !important;
+}
+
+.accordion_button[aria-expanded="true"]::after {
+    content: "-";
+    padding: 20px;
+    color: #313787;
+    background-color: $color_text_light_one;
+    border: 2px solid #313787;
+}
+
+// .accordion_button:focus {
+//     border-color: $color_text_light_one;
+//     outline: 0;
+//     box-shadow: none;
+// }
+
+.buttontext {
+    color: #313787;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.accordionText {
+    font-weight: 300;
+    line-height: 1.8;
+    color: #8c8c8c;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.accordionBody {
+    padding: 1rem 7rem;
+}
+
+.ulItemSetup {
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #8c8c8c;
+    padding-top: 2px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.listStyleSet {
+    padding-top: 20px;
+}
+
+.faIconStyle {
+    margin-right: 6px;
+    font-size: 17px;
+    width: 17px;
+    color: $color_bg_primary_dark;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .accordionBody {
+        padding: 1rem 2.8rem;
+    }
+}

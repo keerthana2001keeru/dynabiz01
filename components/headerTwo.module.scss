@@ -1,0 +1,34 @@
+@import "../styles/variables.scss";
+.setNavItemColor {
+    color: $color_text_light_one !important;
+}
+
+.setNavItemSubColor {
+    color: $color_text_light_two;
+}
+
+.headerTwoButton {
+    background-color: $color_bg_primary_dark !important;
+    color: $color_text_light_one;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 20px;
+}
+
+.headerTwoButton:hover {
+    color: $color_text_light_one;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .setNavItemColor {
+        font-size: 23px;
+    }
+
+    .setNavItemSubColor {
+        font-size: 18px;
+    }
+
+    .btnSetup {
+        padding-left: 10px;
+    }
+}

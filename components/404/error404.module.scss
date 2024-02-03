@@ -1,0 +1,104 @@
+@import "../../styles/variables.scss";
+.overlayMain {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color_bg_primary_dark;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.sectionSetup {
+    padding: 60px 0px 65px;
+    position: relative;
+    z-index: 2;
+}
+
+.numbrStyle {
+    font-size: 150px;
+    line-height: 1;
+    margin-bottom: 40px;
+    color: $color_bg_primary_dark;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pageNotFound {
+    font-family: "Open Sans", sans-serif;
+    color: $color_text_light_one;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.textError {
+    color: $color_text_dark_one;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+}
+
+.newsletterSetup {
+    // width: 70%;
+    z-index: 2;
+    position: relative;
+    margin: 3%;
+}
+
+.btnSetUp {
+    background-color: $color_text_light_one;
+    border: none;
+    border-radius: 0px;
+    color: $color_bg_primary_dark;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btnOneTwo {
+    background-color: rgba(0, 0, 0, 0.438);
+    color: $color_text_light_one;
+    z-index: 5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footerFormInput {
+    border: 0px !important;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.438);
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+    width: 28%;
+}
+
+.backBtn {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 18px;
+}
+
+.linkBack {
+    color: $color_text_light_one !important;
+}

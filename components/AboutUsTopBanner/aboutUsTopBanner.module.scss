@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+.sectionSetup {
+    padding: 120px 0px 135px 0px;
+}
+
+.title {
+    font-size: 93px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: $color_text_light_one;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+}
+
+.subTitle {
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $color_text_light_two ;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 225px) and (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+}

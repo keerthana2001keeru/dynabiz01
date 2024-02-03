@@ -1,0 +1,24 @@
+.contentSet {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@import "../../styles/variables.scss";
+.containerSetup {
+    padding: 100px 20px 60px 20px;
+}
+
+.title {
+    font-size: 27px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding: 0px 30px;
+    color:$color_text_dark_one;
+}
+
+@media screen and (min-width: 225px) and (max-width: 768px) {
+    .title {
+        padding: 0px 20px;
+        margin-bottom: 6%;
+    }
+}

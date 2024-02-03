@@ -1,0 +1,44 @@
+@import "../../styles/variables.scss";
+.cardstyle {
+    background-color: $color_text_light_one;
+    border: 2px solid $color_bg_primary_dark;
+    width: 15rem;
+}
+
+.cardbody {
+    padding: 40px;
+}
+
+.crdTitle {
+    font-size: 19px;
+    font-weight: 600;
+    color: $color_bg_primary_dark;
+}
+
+.Contentsubset {
+    margin-top: 15px;
+}
+
+.Icon {
+    font-size: 15px;
+    margin-right: 10px;
+    color: $color_text_dark_three;
+    line-height: 1.5;
+}
+
+.setStylePheEmail {
+    font-size: 12px;
+    padding-bottom: 5px;
+    color:$color_text_dark_three;
+    cursor: pointer;
+}
+
+.setStylePheEmail:hover {
+    color: $color_bg_primary_dark;
+}
+
+.crdtext {
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 1.8;
+}

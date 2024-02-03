@@ -1,0 +1,60 @@
+@import "../styles/variables.scss";
+.dropdownMenu {
+    min-width: 1rem !important;
+}
+
+.dropdownMenuTwo {
+    min-width: 2rem !important;
+}
+
+.setNavColor {
+    color: $color_bg_primary_dark !important;
+}
+
+.grupSetWidthOne {
+    width: 170px;
+}
+
+.grupSetWidthTwo {
+    width: 328px;
+}
+
+.grupSetWidthThree {
+    width: 428px;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .setNavColor {
+        font-size: 22px !important;
+    }
+
+    .grupSetWidthOne {
+        width: 350px;
+    }
+
+    .grupSetWidthTwo {
+        width: 428px;
+    }
+
+    .grupSetWidthThree {
+        width: 628px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .setNavColor {
+        font-size: 14px !important;
+    }
+
+    .grupSetWidthOne {
+        width: 150px;
+    }
+
+    .grupSetWidthTwo {
+        width: 300px;
+    }
+
+    .grupSetWidthThree {
+        width: 328px;
+    }
+}

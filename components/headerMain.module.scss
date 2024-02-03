@@ -1,0 +1,241 @@
+@import "../styles/variables.scss";
+.carousel-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #171e46;
+    opacity: 0.6;
+    z-index: 1;
+}
+// .imgHeight {
+//     height: 110vh;
+// }
+
+.captionCarouselSet {
+    right: 0% !important;
+    left: 5% !important;
+    text-align: start;
+    color: $color_text_light_one !important;
+    z-index: 5;
+    padding-bottom: 7rem !important;
+}
+
+.sliderOneTitle {
+    font-size: 108px;
+    line-height: 1.2;
+}
+
+.sliderOneSubTitle {
+    font-size: 60px;
+    line-height: 1.4;
+    color: #a2bde2;
+}
+
+.sliderOneDes {
+    font-size: 20px;
+    margin-right: 50%;
+    font-weight: 300;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.sliderBtnSet {
+    padding-top: 10px;
+}
+
+.buttonSetUp {
+    background-color: $color_text_light_one;
+    border: none;
+    border-radius: 40px;
+    color: $color_bg_primary_dark;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.sliderBtnOne {
+    background-color: transparent;
+    color: $color_text_light_one;
+    border: 1px solid $color_text_light_one;
+    z-index: 5;
+    font-weight: 600;
+}
+
+.sliderBtnOne:hover {
+    background-color: $color_text_light_one;
+    color: $color_bg_primary_dark;
+}
+
+.sliderBtnTwo {
+    background-color: #a2bde2;
+    color: $color_bg_primary_dark;
+    font-weight: 600;
+}
+
+.sliderBtnTwo:hover {
+    background-color: $color_text_light_one;
+    color: $color_bg_primary_dark;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .captionCarouselSet {
+        padding-bottom: 28rem !important;
+    }
+
+    .sliderOneTitle {
+        font-size: 108px;
+    }
+
+    .sliderOneDes {
+        font-size: 32px;
+    }
+
+    .buttonSetUp {
+        font-size: 28px;
+        margin: 4px 13px;
+    }
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2032px) {
+    .captionCarouselSet {
+        padding-bottom: 20rem !important;
+    }
+}
+@media screen and (min-width: 1442px) and (max-width: 1818px) {
+    .captionCarouselSet {
+        padding-bottom: 15rem !important;
+    }
+    .sliderOneTitle {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    .captionCarouselSet {
+        padding-bottom: 7rem !important;
+    }
+
+    .sliderOneTitle {
+        font-size: 78px;
+    }
+
+    .sliderOneDes {
+        font-size: 22px;
+    }
+
+    .buttonSetUp {
+        font-size: 16px;
+        margin: 4px 6px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .captionCarouselSet {
+        padding-bottom: 2rem !important;
+    }
+
+    .sliderOneTitle {
+        font-size: 60px;
+    }
+
+    .sliderOneDes {
+        font-size: 18px;
+    }
+
+    .buttonSetUp {
+        font-size: 12px;
+        margin: 4px 6px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .captionCarouselSet {
+        padding-bottom: 2rem !important;
+    }
+
+    .sliderOneTitle {
+        font-size: 38px;
+    }
+
+    .sliderOneDes {
+        font-size: 14px;
+    }
+
+    .sliderOneSubTitle {
+        font-size: 30px;
+    }
+
+    .buttonSetUp {
+        font-size: 12px;
+        margin: 4px 6px;
+        padding: 7px 16px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .imgHeight {
+        height: 74vh;
+    }
+
+    .captionCarouselSet {
+        padding-bottom: 4rem !important;
+    }
+
+    .sliderOneTitle {
+        font-size: 36px;
+    }
+
+    .sliderOneSubTitle {
+        font-size: 15px;
+    }
+
+    .sliderOneDes {
+        font-size: 12px;
+    }
+
+    .buttonSetUp {
+        font-size: 12px;
+        margin: 4px 4px;
+        padding: 7px 16px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .imgHeight {
+        height: 74vh;
+    }
+
+    .captionCarouselSet {
+        padding-bottom: 5rem !important;
+    }
+
+    .sliderOneTitle {
+        font-size: 22px;
+    }
+
+    .sliderOneSubTitle {
+        font-size: 10px;
+    }
+
+    .sliderOneDes {
+        font-size: 8px;
+    }
+
+    .buttonSetUp {
+        font-size: 8px;
+        margin: 4px 4px;
+        padding: 5px 12px;
+    }
+}
