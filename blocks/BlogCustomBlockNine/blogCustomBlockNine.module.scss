@@ -1,0 +1,17 @@
+.coustomStyle {
+    padding: 80px 200px 30px 200px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+
+    .coustomStyle {
+        padding: 80px 60px 30px 60px;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 375px) {
+
+    .coustomStyle {
+        padding: 30px 20px 30px 20px;
+    }
+}
