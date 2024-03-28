@@ -1,0 +1,452 @@
+@import "../../styles/variables.scss";
+
+
+.breadcrumb {
+    padding: 10px 0px 10px 40px;
+    /* background: #f5f5f5; */
+}
+
+.breadcrumb-right-arrow .breadcrumb-item+.breadcrumb-item::before {
+    content: "›";
+    vertical-align: top;
+    font-size: 30px;
+    line-height: 15px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.cardBodyCvSectionCdetail {
+    flex: 1 1 auto;
+    margin: 0%;
+    padding: 8%;
+    /* height: 95%; */
+    background-color: $color_bg_primary_dark;
+}
+
+.cardTitleCvSectionCdetail {
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 5px;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+}
+
+.cardSubTextCvSectionCdetail {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+}
+
+.careerDetailFormInput {
+    border: 1px solid rgba(231, 231, 231, 0.534) !important;
+    color: white !important;
+    display: block;
+    margin: 1% 4% 6% 0%;
+    width: 100%;
+    height: 100%;
+    padding: 20px 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #525252;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+.cvAttachHeadingCdetail {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.cvAttachSubHeadingCdetail {
+    font-size: 13px;
+    color: white;
+    font-weight: 300;
+}
+
+.highlightCVtextCDetail {
+    color: rgb(250, 57, 57);
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.highlightCVtextCDetail:hover {
+    color: rgb(196, 9, 9);
+
+}
+
+.cvFilesizeCdeail {
+    padding: 2px;
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+}
+
+.cvAttachcrdBgTwo {
+    background-color: #525252 !important;
+    border: 1px dashed rgb(219, 219, 219) !important;
+    padding: 3%;
+    margin-top: 15%;
+}
+
+.cvFileSetup {
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.cvFileSetupIcon {
+    color: rgb(196, 9, 9);
+    size: 15;
+    cursor: pointer;
+}
+
+.errorMsgCv {
+    font-size: 12px;
+    padding: 3px;
+    color: rgb(196, 9, 9);
+    display: none;
+}
+
+// input:invalid[focused="true"] {
+//     border: 1px solid rgb(196, 9, 9);
+// }
+
+// input:invalid[focused="true"]~.errorMsgCv {
+//     display: block;
+// }
+
+.careerDetailJobTitle {
+    font-size: 34px;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: $color_bg_primary_dark;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.careerDetailSubTitle {
+    font-size: 18px;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: $color_bg_primary_dark;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.careerDetailsubText {
+    font-size: 15px;
+    color: #525252;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.listunstyled {
+    text-decoration: none;
+}
+
+.cDetailDivider {
+    width: 100%;
+    border-top: 1px solid #525252;
+    margin-left: 0px;
+    margin-right: auto;
+    z-index: 6;
+}
+
+.cDetailDividerTwo {
+    width: 100%;
+    border-top: 2px solid white;
+    margin-left: 0px;
+    margin-top: 6px;
+    z-index: 3;
+    margin-right: auto;
+}
+
+.aboutTheJobDetail {
+    font-size: 24px;
+    font-weight: 600;
+    color: $color_bg_primary_dark;
+    margin-bottom: 20px;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+}
+
+.subTitlesTheJobDetail {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: $color_bg_primary_dark;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+}
+
+.careerDetailsubTextTwo {
+    font-size: 16px;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #525252b2;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.CDetailUlItemSetup {
+    color: #525252b2;
+    font-size: 16px;
+    font-family: proxima-nova-web, Arial, Helvetica, sans-serif;
+    padding-bottom: 12px;
+}
+
+.coinSalaryIcon {
+    color: $color_bg_primary_dark;
+}
+
+.contentCrdSetCareerCdetail {
+    padding: 30px 20px;
+}
+
+.footerCrdThreeTop {
+    padding-top: 140px;
+}
+
+.careerCrdTitleCdetail {
+    font-size: 40px;
+    color: $color_bg_primary_dark;
+    line-height: 2;
+}
+
+.careerCrdTextCdetail {
+    font-size: 16px;
+    font-weight: 300;
+    color: #494949;
+    line-height: 1.5;
+}
+
+.buttonSetUpCdetail {
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+    color: $color_text_dark_one ;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.CdetailBtnOne {
+    background-color: $color_bg_primary_dark;
+    color: white;
+    border: 2px solid white;
+    z-index: 5;
+    font-weight: 600;
+}
+
+.CdetailBtnOne:hover {
+    box-shadow: 0 6px 10px 0 #38383852, 0 19px 30px 0 rgba(53, 52, 52, 0.075);
+}
+
+.cardsCdeatil {
+    position: relative;
+    display: -moz-box;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: -20%;
+    z-index: 5;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px;
+    border-radius: 0.25rem;
+}
+
+.lineimgCdetail {
+    width: 20%;
+    height: 40px !important;
+    margin-left: 2%;
+}
+
+.cOneCrdImgCdeatil {
+    height: 390px;
+    width: -webkit-fill-available;
+}
+
+
+
+
+
+
+
+
+
+
+#form-file-upload {
+    width: 28rem;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#input-file-upload {
+    display: none;
+}
+
+#label-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 0px;
+    border-style: dashed;
+    background-color: #525252 !important;
+    border: 1px dashed rgb(219, 219, 219) !important;
+    padding: 3%;
+    margin-top: 15%;
+}
+
+#label-file-upload.drag-active {
+    background-color: #ffffff;
+}
+
+.upload-button {
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+}
+
+.upload-button:hover {
+    text-decoration-line: underline;
+}
+
+#drag-file-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+    .containerXxl {
+        padding: 0px 200px 0px 200px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cardsCdeatil {
+        margin-top: 5%;
+        margin-bottom: -25%;
+        z-index: 5;
+    }
+
+    .careerCrdTitleCdetail {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+    .bottom-banner {
+        height: 1160px !important;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .careerCrdTitleCdetail {
+        font-size: 23px;
+    }
+
+    .careerCrdTextCdetail {
+        font-size: 14px;
+    }
+
+    .lineimgCdetail {
+        height: 26px !important;
+    }
+
+    .cardsCdeatil {
+        margin-top: 15%;
+        margin-bottom: -59%;
+        z-index: 5;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 765px) {
+
+    .cardsCdeatil {
+        margin-top: 15%;
+        margin-bottom: -100%;
+        z-index: 5;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 424px) {
+    .careerDetailJobTitle {
+        font-size: 20px;
+    }
+
+    .breadcrumb-item {
+        font-size: 13px;
+    }
+
+    .careerDetailSubTitle {
+        font-size: 15px;
+    }
+
+    .careerDetailsubText {
+        font-size: 10px;
+    }
+
+    .breadcrumb-right-arrow .breadcrumb-item+.breadcrumb-item::before {
+        content: "›";
+        vertical-align: top;
+        font-size: 24px;
+        line-height: 15px;
+        margin-top: 0px;
+        margin-right: 2px;
+    }
+
+    .cardsCdeatil {
+        margin-top: 15%;
+        margin-bottom: -158%;
+        z-index: 5;
+    }
+
+    .careerCrdTitleCdetail {
+        font-size: 22px;
+    }
+
+    .lineimgCdetail {
+        height: 18px !important;
+    }
+
+    .careerCrdTextCdetail {
+        font-size: 12px;
+    }
+
+    .buttonSetUpCdetail {
+        padding: 10px 11px;
+        font-size: 10px;
+        margin: 4px 2px;
+    }
+}
