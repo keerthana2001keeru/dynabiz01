@@ -1,0 +1,62 @@
+@import "../../styles/variables.scss";
+.contanierSetup {
+    padding: 90px 0px 60px 0px;
+}
+
+.contentSet {
+    padding: 0px 40px 30px 40px;
+}
+
+.cardSetup {
+    padding: 0px 40px 30px 40px;
+}
+
+.smallTitle {
+    font-size: 17px;
+    color: $color_text_dark_two;
+    margin-bottom: 10px;
+    font-family: "Asap", sans-serif;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    color:$color_text_dark_one;
+}
+
+.contentsetup {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: inherit;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+}
+
+.smallTitleTwo {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.863);
+    margin-bottom: 10px;
+    font-family: "Asap", sans-serif;
+}
+
+.titleTwo {
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-bottom: 10px;
+    color: $color_text_light_one;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contentsetupTwo {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: inherit;
+    color: rgba(255, 255, 255, 0.863);
+    line-height: 1.7;
+}

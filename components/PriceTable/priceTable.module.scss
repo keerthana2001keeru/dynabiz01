@@ -1,0 +1,118 @@
+@import "../../styles/variables.scss";
+
+
+.cards {
+    border: 0px !important;
+}
+
+.cardsTwo {
+    border: 0px !important;
+    box-shadow: $color_text_dark_three 0px 3px 8px;
+}
+
+.topSection {
+    padding: 38px 20px;
+    background: linear-gradient($color_bg_secondary_dark, $color_bg_secondary_dark);
+}
+
+.topSectionTwo {
+    padding: 58px 20px;
+    background: linear-gradient($color_bg_primary_dark, $color_bg_primary_dark);
+}
+
+.topTitle {
+    color: $color_text_light_one;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.topSubTitle {
+    font-size: 14px;
+    color: $color_text_light_one;
+}
+
+.topIcon {
+    color: $color_text_light_one;
+    margin: 3%;
+}
+
+.priceSection {
+    background-color:$color_bg_primary_light;
+}
+
+.bodySetup {
+    background-color: $color_text_light_one;
+}
+
+.cardTitle {
+    font-size: 60px;
+    font-weight: 100;
+    margin: 0 8px;
+    vertical-align: middle;
+    color: $color_text_dark_three;
+    // font-family: "Montserrat", sans-serif;
+}
+
+.titlePrefix {
+    font-size: 25px;
+    vertical-align: super;
+}
+
+.titleSufix {
+    font-size: 17px;
+    vertical-align: bottom;
+    color: $color_text_dark_two;
+}
+
+.listGrup {
+    padding: 14px 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 0;
+    color: $color_text_dark_two;
+    background-color: $color_bg_primary_light;
+}
+
+.setBgClr {
+    background-color: $color_bg_primary_light;
+}
+
+.listIconSetup {
+    margin: 8px;
+}
+
+.btnSetUp {
+    background-color: $color_text_light_one;
+    border: none;
+    border-radius: 40px;
+    color: $color_bg_primary_dark;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btnOne {
+    background: linear-gradient($color_bg_secondary_dark, $color_bg_secondary_dark);
+    color: $color_text_light_one;
+    border: 2px solid $color_text_light_one;
+    z-index: 5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btnOneTwo {
+    background: linear-gradient($color_bg_primary_dark, $color_bg_primary_dark);
+    color: $color_text_light_one;
+    border: 2px solid $color_text_light_one;
+    z-index: 5;
+    text-transform: uppercase;
+    font-weight: 600;
+}

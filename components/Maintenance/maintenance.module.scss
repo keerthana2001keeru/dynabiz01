@@ -1,0 +1,101 @@
+@import "../../styles/variables.scss";
+.setContainer {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #34344e;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.contentSet {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.title {
+    font-size: 54px;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: $color_text_light_one;
+    font-weight: 800;
+    display: inline-block;
+    font-family: "Asap", sans-serif;
+}
+
+.subContent {
+    font-size: 21px;
+    font-family: "Asap", sans-serif;
+    color: $color_text_light_one;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.description {
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: inherit;
+    color: $color_text_light_one;
+    font-weight: 300;
+}
+
+.containerBar {
+    background-color: $color_text_light_one;
+}
+
+.barCompleted {
+    background-color: black;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .title {
+        font-size: 75px;
+    }
+
+    .subContent {
+        font-size: 34px;
+    }
+
+    .description {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .subContent {
+        font-size: 19px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 425px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .subContent {
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+}

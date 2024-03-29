@@ -1,0 +1,21 @@
+
+@import "../../styles/variables.scss";
+
+.SectionTitle {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: $color_bg_primary_dark;
+    font-family: "Montserrat", sans-serif;
+}
+
+.SectionSubTitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    margin-bottom: 6%;
+    text-transform: uppercase;
+    color: #525a70;
+    font-family: "Montserrat", sans-serif;
+}

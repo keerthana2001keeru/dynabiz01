@@ -1,0 +1,13 @@
+.layoutSetUp {
+    margin: 0px 40px 0px 41px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .subLayoutSetup {
+        padding-left: 30px;
+    }
+
+    .layoutSetUp {
+        margin: 0px 30px 0px 30px;
+    }
+}

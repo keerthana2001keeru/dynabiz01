@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+.contentSet {
+    position: relative;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+.textStyle {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #212121;
+    padding-top: 10px;
+}
+
+.textStyleTwo {
+    @extend .textStyle;
+    color: $color_text_light_one;
+}
+
+.bgColorSet {
+    background-color: $color_text_light_one;
+}
+
+.bgColorSetTwo {
+    background-color: $color_bg_primary_dark;
+}

@@ -1,0 +1,43 @@
+
+
+$color_bg_primary_dark:   rgb(26, 20, 104) ; //button bg and main text
+$color_bg_secondary_dark: rgb(44, 179, 73); //
+
+//$color_bg_primary_dark;
+
+
+$color_bg_primary_light: #f1efef; //for light bg
+$color_bg_secondary_light: SECONDARYLIGHTCOLOR;
+
+$color_bg_primary_dark_shade: PRIMARYSHADECOLOR;
+$color_bg_secondary_dark_shade: SECONDARYSHADECOLOR;
+
+$color_bg_primary_light_shade: PRIMARYLIGHTSHADECOLOR;
+$color_bg_secondary_light_shade: SECONDARYLIGHTSHADECOLOR;
+
+
+
+/*****
+Text colors
+*/
+$color_text_dark_one :  rgb(44, 179, 73); // sub text in white bg
+$color_text_dark_two : rgb(73, 10, 10); //text in white bg ( text muted)
+$color_text_dark_three : rgb(3, 27, 11); //para
+
+$color_text_light_one : rgb(236, 217, 217); // text in dark bg
+$color_text_light_two :  rgb(255, 255, 255); // text in dark bg
+$color_text_light_three : green;
+
+$color_text_white: $color_text_light_one;
+$color_text_black: #000000;
+$color_error_text :red;
+
+
+
+
+
+
+
+//$color_bg_primary_light: PRIMARYLIGHTCOLOR;
+//$color_bg_secondary_light: SECONDARYLIGHTCOLOR;
+

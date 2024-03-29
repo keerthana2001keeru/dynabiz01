@@ -1,0 +1,70 @@
+@import "../../styles/variables.scss";
+.imgs {
+    width: 85%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    color: $color_bg_primary_dark;
+    padding-bottom: 30px;
+}
+
+.description {
+    font-size: 16px;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+.descriptionTwo {
+    font-size: 20px;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+    padding-bottom: 30px;
+}
+
+.setContentGrp {
+    padding: 40px 25px 20px 0px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .title {
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .descriptionTwo {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .setContentGrp {
+        padding: 15px 17px 20px 26px;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 425px) {
+    .title {
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .descriptionTwo {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .setContentGrp {
+        padding: 15px 17px 20px 26px;
+    }
+}

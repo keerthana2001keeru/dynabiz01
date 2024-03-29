@@ -1,0 +1,86 @@
+@import "../../styles/variables.scss";
+.hFiveUlItemSetup {
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: $color_text_dark_three;
+    padding-top: 2px;
+}
+
+.listStyleSet {
+    padding-top: 20px;
+}
+
+.faIconStyle {
+    margin-right: 6px;
+    font-size: 17px;
+    width: 17px;
+    color: $color_text_dark_one;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    color: $color_bg_primary_dark;
+    padding: 0px 20px 10px 20px;
+    letter-spacing: 1px;
+}
+
+.highlightSection {
+    color:$color_text_dark_one;
+}
+
+.desOne {
+    font-size: 20px;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+    padding-bottom: 10px;
+}
+
+.desOneSub {
+    font-size: 16px;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .title {
+        font-size: 19px;
+        padding: 0px 20px 10px 10px;
+
+    }
+
+    .desOne {
+        font-size: 16px;
+    }
+
+    .desOneSub {
+        font-size: 12px;
+    }
+
+    .hFiveUlItemSetup {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 425px) {
+    .title {
+        font-size: 19px;
+        padding: 0px 20px 10px 10px;
+
+    }
+
+    .desOne {
+        font-size: 16px;
+    }
+
+    .desOneSub {
+        font-size: 12px;
+    }
+
+    .hFiveUlItemSetup {
+        font-size: 14px;
+    }
+}

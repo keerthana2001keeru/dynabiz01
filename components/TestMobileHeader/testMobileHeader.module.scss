@@ -1,0 +1,28 @@
+.classtwo {
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+    color: #fff
+}
+
+.classOne {
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+    width: 3em;
+    height: 3em;
+    border: 0
+}
+
+@media screen and (min-width: 376px) and (max-width: 980px) {
+
+    .logoSetup {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .logoSetup {
+        width: 98px;
+    }
+}

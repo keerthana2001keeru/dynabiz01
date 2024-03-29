@@ -1,0 +1,41 @@
+.title {
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 11px;
+    margin-top: 4px;
+    color: #3e4494;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.heading:hover {
+    color: #828285;
+    transition: 0.5s ease;
+}
+
+.hCrdTwoFooterText {
+    font-size: 9px;
+    font-weight: 400;
+    color: #828285;
+    letter-spacing: 2px;
+    padding-right: 22px;
+    cursor: pointer;
+}
+
+.imageSetup {
+    width: 70%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.sectionSetup {
+    margin-bottom: 50px;
+}

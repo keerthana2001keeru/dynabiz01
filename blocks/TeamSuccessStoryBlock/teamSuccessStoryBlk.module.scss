@@ -1,0 +1,24 @@
+
+@import "../../styles/variables.scss";
+.contentSet {
+    padding: 120px 0px 60px 0px !important;
+    background-color: #f0f0f08e;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: $color_bg_primary_dark;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subTitle {
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: $color_text_dark_one;
+    font-family: "Montserrat", sans-serif;
+}

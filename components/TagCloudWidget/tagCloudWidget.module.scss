@@ -1,0 +1,30 @@
+.title {
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.sectionSetup {
+    margin-bottom: 50px;
+}
+
+.cardSet {
+    padding: 12px;
+    border: 1px sloid #383838;
+    border-radius: 0px;
+    margin: 5px;
+}
+
+.contentSetup {
+    color: #3e4494;
+    font-size: 13px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.cardSet:hover .contentSetup {
+    color: #828285;
+    transition: 0.5s ease;
+}

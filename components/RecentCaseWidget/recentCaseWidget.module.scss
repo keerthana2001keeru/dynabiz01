@@ -1,0 +1,78 @@
+
+@import "../../styles/variables.scss";
+.title {
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.cardSet {
+    width: 30%;
+    height: 70%;
+    margin: 1%;
+}
+
+.imgZoom {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imgZoom::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 0;
+}
+
+.imgZoom:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 350ms;
+}
+
+.imgSetup {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.imgZoom:hover .imgSetup {
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.overlayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    svg {
+        opacity: 0;
+        visibility: hidden;
+        color: $color_text_light_one;
+    }
+}
+
+.imgZoom:hover .overlayText {
+    z-index: 2;
+    cursor: pointer;
+
+    svg {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.3s ease;
+    }
+}

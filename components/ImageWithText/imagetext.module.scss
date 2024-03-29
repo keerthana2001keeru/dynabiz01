@@ -1,0 +1,86 @@
+
+@import "../../styles/variables.scss";
+.imageSetup {
+    float: left;
+    width: 45%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
+
+.headingSection {
+    padding: 68px 0px 20px 0px;
+}
+
+.textStyle {
+    font-weight: 300;
+    line-height: 1.8;
+    color: $color_text_dark_three;
+}
+
+.titleText {
+    font-size: 60px;
+    font-weight: 600;
+    color: $color_bg_primary_dark;
+}
+
+.subtitleText {
+    font-size: 13px;
+    font-style: normal;
+    color: $color_text_dark_three;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+// .clearfloat:before {
+//     content: "";
+//     display: inline-block;
+//     margin-right: -35%;
+// }
+
+.textAlignSetup {
+    text-align: justify;
+}
+
+.clearfloat:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hFiveUlItemSetup {
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: $color_text_dark_three;
+    padding-top: 2px;
+}
+
+.listStyleSet {
+    padding-top: 20px;
+}
+
+.faIconStyle {
+    margin-right: 6px;
+    font-size: 17px;
+    width: 17px;
+    color: $color_bg_primary_dark;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .titleText {
+        font-size: 32px;
+    }
+
+    .imageSetup {
+        width: 60%;
+        padding-bottom: 2%;
+        padding-right: 2%;
+    }
+
+    .textStyle {
+        line-height: 1.4;
+        font-size: 15px;
+    }
+}

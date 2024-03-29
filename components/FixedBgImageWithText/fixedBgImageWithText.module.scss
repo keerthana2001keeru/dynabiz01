@@ -1,0 +1,105 @@
+
+@import "../../styles/variables.scss";
+.overlayMain {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1d1f;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.overlayTwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274580a6;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.overlayThree {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #032061;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.contentSet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.textOne {
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: .5px;
+    margin-bottom: 13px;
+    font-family: "Asap", sans-serif;
+    color: #d8d8d8;
+}
+
+.mainHeading {
+    font-size: 27px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+    color: $color_text_light_one;
+}
+
+.mainHeadingTwo {
+    font-size: 37px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+    color: $color_text_light_one;
+}
+
+.description {
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: .5px;
+    margin-bottom: 13px;
+    color: $color_text_light_two;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 4;
+}
+
+.bgImage {
+    height: 550px;
+}
+
+.bgImageTwo {
+    height: 380px;
+}
+
+@media screen and (min-width: 225px) and (max-width: 580px) {
+    .mainHeadingTwo {
+        font-size: 27px;
+    }
+
+    .bgImageTwo {
+        height: 450px;
+    }
+}

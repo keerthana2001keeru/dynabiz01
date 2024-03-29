@@ -1,0 +1,61 @@
+@import "../../styles/variables.scss";
+.HoneSectionIcon {
+    width: 175px;
+}
+
+.HoneSectionIconTwo {
+    width: 100px;
+}
+
+.HoneContentSet {
+    padding: 0px 20px 20px 20px;
+}
+
+.HoneSectionTitle {
+    color: $color_bg_primary_dark;
+}
+
+.HoneSectionTitleTwo {
+    color: $color_bg_primary_dark;
+    font-size: 23px;
+}
+
+.HoneSectionTitleThree {
+    color: $color_text_light_one;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.HoneSectionDes {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-top: 10px;
+    color:$color_text_dark_one;
+
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 3;
+
+
+
+
+
+}
+
+.HoneSectionThree {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-top: 10px;
+    color: $color_text_dark_one;
+}
+
+@media screen and (min-width: 225px) and (max-width: 768px) {
+    .HoneSectionTitleThree {
+        font-size: 21px;
+    }
+}

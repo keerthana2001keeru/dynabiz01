@@ -1,0 +1,74 @@
+.bgImage {
+    height: auto;
+}
+@import "../../styles/variables.scss";
+.sectionBg {
+    background-color: $color_text_dark_three;
+    padding: 160px 80px 90px;
+}
+.contentCls{
+color:$color_text_light_one;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 6;
+
+}
+.sectionBgTwo {
+    background-color: $color_bg_primary_dark;
+    padding: 160px 80px 90px;
+}
+
+.description {
+    font-size: 22px;
+    color: $color_text_light_one;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.descriptionTwo {
+    font-size: 18px;
+    color: $color_text_light_one;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.icon {
+    color: $color_text_light_one;
+    float: left;
+    font-size: 20px;
+    line-height: 1;
+    margin-right: 35px;
+}
+
+.smallTitle {
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $color_text_light_one;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 15px;
+}
+
+.largeTitle {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: $color_text_light_one;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    padding-bottom: 25px;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .bgImage {
+        height: 650px;
+    }
+}

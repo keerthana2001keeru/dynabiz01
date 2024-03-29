@@ -1,0 +1,27 @@
+@import "../../../styles/variables.scss";
+.buttonSetUp {
+    background-color: $color_text_light_one;
+    border: none;
+    border-radius: 5px;
+    color: $color_bg_primary_dark;
+    padding: 19px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.BtnOne {
+    background-color: $color_bg_primary_dark;
+    color: $color_text_light_one;
+    border: 1px solid $color_bg_primary_dark;
+    z-index: 1;
+    font-weight: 600;
+}
+
+.BtnOne:hover {
+    box-shadow: 0 6px 10px 0 $color_bg_primary_dark, 0 19px 30px 0 $color_bg_primary_dark;
+}

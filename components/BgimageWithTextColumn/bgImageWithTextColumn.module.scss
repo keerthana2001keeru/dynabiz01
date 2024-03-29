@@ -1,0 +1,38 @@
+
+@import "../../styles/variables.scss";
+.title {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: $color_text_light_one;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.content {
+    font-size: 19px;
+    color: $color_text_light_two;
+    font-family: "Open Sans", sans-serif;
+    padding-right: 40px;
+    line-height: 1.9;
+}
+
+.contentSet {
+    padding: 130px 0px 110px 0px;
+}
+
+@media screen and (min-width: 225px) and (max-width: 767px) {
+    .contentSet {
+        padding: 60px 30px 60px 30px;
+    }
+
+    .content {
+        padding-right: 0px;
+    }
+
+    .title {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+}

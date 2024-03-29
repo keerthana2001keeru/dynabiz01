@@ -1,0 +1,25 @@
+
+@import "../../styles/variables.scss";
+.containerSection {
+    background-color: $color_text_light_one;
+}
+
+.subContainer {
+    padding: 70px 0px 30px 0px;
+    ;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: $color_bg_primary_dark;
+}
+
+.connect {
+    color: #7a7a7a;
+    line-height: 1.7;
+    font-size: 17px;
+}

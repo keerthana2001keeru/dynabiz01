@@ -1,0 +1,1050 @@
+@import "../styles/variables.scss";
+
+
+html,
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* Header Main Css Start */
+#cuscarousel .carousel-inner .carousel-item img {
+  width: 100%;
+}
+
+.carousel-inner .carousel-item img {
+  -webkit-animation: thing 40s;
+  -o-animation: thing 40s;
+  animation: thing 40s
+}
+
+@keyframes thing {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.container-fluid.main {
+  position: relative;
+  /* To make the navbar positions relative to this container */
+  padding: 0;
+}
+
+.defaultPositionHeader {
+  background-image: none;
+  background-color: transparent;
+  /* Make the menu become transparent */
+  border-radius: 0px;
+  border: 0;
+  box-shadow: none;
+  padding: 10px;
+  position: absolute;
+  /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.slick-slide img {
+  display: inherit !important;
+}
+
+.mDivider {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178) !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  z-index: 2;
+  position: relative;
+}
+
+.mDivider:last-child {
+  border-bottom: none !important;
+}
+
+.sec-mar{
+
+  padding-top: 30px;
+}
+
+
+
+
+//mobile header text scss 
+
+
+#header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4.0625em;
+  background-color: rgba($color: #101f41, $alpha: 0.8);
+  z-index: 3;
+}
+
+#header label {
+  padding: 0 0.125em;
+  font: 2.875em/1.4375em Arial
+}
+
+#menu label {
+  // padding: 0 0.25em;
+  font: 3.125em/1.375em Arial
+}
+
+#menu .sub-nav .toggle {
+  padding: 0 0.3125em;
+  font: 2em/2em Arial;
+  top: 0;
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1)
+}
+
+#header label:hover,
+#menu label:hover {
+  color: #ccc
+}
+
+#main-nav-check,
+#menu .sub-nav-check {
+  position: absolute;
+  top: -9999px;
+  left: -9999px
+}
+
+.toggle {
+  position: absolute;
+  right: 0.15em;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.664)
+}
+
+.containerSetup {
+  background: #fff;
+  min-height: 100%;
+  padding: 0;
+  margin: 0
+}
+
+#menu,
+#menu .sub-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  z-index: 9999;
+  left: -100%
+}
+
+.containerSetup,
+#menu,
+#menu .sub-nav {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform .25s ease;
+  transition: transform .25s ease
+}
+
+#menu ul {
+  background: #222;
+  line-height: 2.75em;
+  text-decoration: none;
+  padding: 0;
+  list-style: none;
+  margin-top: 4.0625em;
+  border-top: 1px solid #444
+}
+
+#menu li {
+  border-bottom: 1px solid #444
+}
+
+#menu li a {
+  background: #222;
+  display: block;
+  font-size: 0.875em;
+  padding-left: 1.5em;
+  color: rgba(255, 255, 255, 0.664);
+  text-decoration: none
+}
+
+#menu li a:hover,
+#menu .toggle-sub:hover {
+  background: #333
+}
+
+#menu .sub-nav {
+  margin-top: -1px
+}
+
+#menu .sub-heading {
+  margin-top: 4.0625em;
+  padding-left: 1.3125em;
+  color: #999
+}
+
+#menu .sub-heading:before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-left: -1.3125em;
+  background: #444;
+}
+
+#menu .toggle-sub {
+  font: bold 1em/2.75em Arial;
+  color: rgba(255, 255, 255, 0.664);
+  background: #222;
+  float: right;
+  margin-top: -2.75em;
+  width: 2.25em;
+  border-left: 1px solid #444;
+  cursor: pointer;
+  text-align: center
+}
+
+.containerSetup,
+#menu,
+#menu .sub-nav {
+  -webkit-transform: translate3d(0, 0, 0)
+}
+
+
+/* http://davidwalsh.name/translate3d */
+
+
+/* #### - corrects 'unfixing' bug in Safari - uncomment if you have position:fixed elements inside .containerSetup - #### */
+
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0) { .containerSetup { -webkit-transform:none !important } } */
+
+
+/* #### - define ids of animated container, menu and sub-menus here - #### */
+
+#main-nav-check:checked~.containerSetup,
+#main-nav-check:checked~#menu,
+#menu .sub-nav-check:checked~[id$="-sub"]
+/* matches all elements with id ending "-sub" */
+
+  {
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0)
+}
+
+.page-content {
+  padding: 0 1em 1em;
+  max-width: 64em;
+  margin: auto
+}
+
+.page-content:after {
+  display: block;
+  content: "";
+  height: 1px
+}
+
+
+/* fixes bottom padding issue in IE10 */
+
+.breadcrumbs {
+  font-size: .75em;
+  border-bottom: 7px solid #eee;
+  margin: 0 -1.25em 1.5em;
+  padding: 1em 1.25em
+}
+
+.breadcrumbs span {
+  display: none
+}
+
+@media(min-width:30em) {
+  .breadcrumbs {
+    line-height: 3.75;
+    padding: 0 1.25em
+  }
+}
+
+@media(min-width:60em) {
+  .breadcrumbs span {
+    display: inline-block
+  }
+}
+
+a,
+a:active,
+a:visited {
+  color: #c30
+}
+
+a:visited {
+  color: $color_bg_primary_dark;
+}
+
+a:hover,
+a:focus {
+  color: #666;
+  text-decoration: none
+}
+
+code {
+  display: block;
+  background: #ebebeb;
+  font-size: 0.875em;
+  padding: 1em 2em;
+  overflow-x: scroll;
+  $color_text_light_one-space: nowrap
+}
+
+//alerts contact form
+
+.alert-warning {
+  --bs-alert-color: white !important;
+  --bs-alert-bg: $color_bg_primary_dark !important;
+  --bs-alert-border-color: $color_bg_primary_dark !important;
+}
+
+//mobile inter validation
+
+.react-tel-input .form-control {
+  font-size: 15px !important;
+  background: $color_text_light_two !important;
+  border: 0px solid #CACACA !important;
+  border-radius: 0px !important;
+  width: 100% !important;
+  outline: none;
+  padding: 17px 14px 17px 58px !important;
+  transition: box-shadow ease .25s,border-color ease .25s;
+}
+.react-tel-inputs .form-control {
+  font-size: 15px !important;
+  background: $color_bg_primary_light !important;
+  border: 0px solid #CACACA !important;
+  border-radius: 0px !important;
+  width: 100% !important;
+  outline: none;
+  padding: 17px 14px 17px 58px !important;
+  transition: box-shadow ease .25s,border-color ease .25s;
+}
+.react-tel-inputs-enq .form-control {
+  font-size: 15px !important;
+  background: $color_bg_primary_light !important;
+  border: 1px solid #CACACA !important;
+  border-radius: 0px !important;
+  width: 100% !important;
+  outline: none;
+  margin: 3.95px !important;
+  padding: 17px 14px 17px 58px !important;
+  transition: box-shadow ease .25s,border-color ease .25s;
+}
+.react-tel-input .special-label {
+  display: none !important;
+}
+.cardBodyCvSectionCdetail {
+  flex: 1 1 auto;
+  margin: 0%;
+  padding: 8%;
+  /* height: 95%; */
+  background-color: $color_bg_primary_dark_shade;
+}
+
+.cardTitleCvSectionCdetail {
+  font-size: 24px;
+  color: $color_text_dark_three;
+  font-weight: 500;
+  padding-bottom: 5px;
+  font-family: var(--font-saira);
+}
+
+.cardSubTextCvSectionCdetail {
+  font-size: 14px;
+  color: $color_text_dark_three;
+  font-weight: 400;
+  font-family: var(--font-saira);
+}
+
+.careerDetailFormInput {
+  border: 1px solid  rgb(green,0.08) !important;
+  color: $color_text_light_two !important;
+  display: block;
+  margin: 1% 4% 6% 0%;
+  width: 100%;
+  height: 100%;
+  padding: 20px 18px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color:rgb(green,0.06);
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+.select-btn{
+  border: 1px solid $color_bg_secondary_light_shade !important;
+  color: $color_text_dark_three !important;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-saira);
+  background-color: $color_bg_secondary_light_shade !important;
+  outline: none;
+  margin-bottom: 0;
+
+  .form-select{
+      border: 1px solid $color_bg_secondary_light_shade !important;
+      color: $color_text_dark_three !important;
+      display: block;
+      width: 100%;
+      padding: 10px 18px;
+      height: 100%;
+      font-size: 12px;
+      font-family: var(--font-saira);
+      font-weight: 400;
+      line-height: 1.5;
+      background-color: $color_bg_secondary_light_shade !important;
+      outline: none;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 0;
+  
+  }
+}
+.check-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+.form-check-label{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-saira);
+  color: $color_text_light_three !important;
+  a{
+      color: $color_bg_primary_dark !important; 
+      cursor: pointer; 
+  }
+}
+.modal-btn{
+  font-family: var(--font-saira);
+  font-size: 14px;
+  font-weight: 400;
+  color: $color_bg_primary_dark !important;  
+}
+}
+
+
+
+.cvAttachHeadingCdetail {
+  font-size: 16px;
+  color: $color_text_light_three;
+  font-weight: 400;
+}
+
+.cvAttachSubHeadingCdetail {
+  font-size: 13px;
+  color: $color_text_light_three;
+  font-weight: 400;
+}
+
+.highlightCVtextCDetail {
+  color: $color_error_text;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.highlightCVtextCDetail:hover {
+  color: $color_error_text;
+
+}
+
+.cvFilesizeCdeail {
+  padding: 2px;
+  font-size: 14px;
+  color: $color_text_light_two;
+  font-weight: 200;
+}
+
+.cvAttachcrdBgTwo {
+  background-color: rgb($color_text_light_three,0.2) !important;
+  border: 1px dashed rgb($color_text_light_three,0.4) !important;
+  padding: 3%;
+  // margin-top: 15%;
+}
+
+.cvFileSetup {
+  color: $color_text_dark_three;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.cvFileSetupIcon {
+  color: $color_error_text;
+  size: 15;
+  cursor: pointer;
+}
+.success-message{
+  color:$color_text_light_two !important;
+}
+
+.errorMsgCv {
+  font-size: 12px;
+  padding: 3px;
+  color: $color_error_text;
+  display: none;
+}
+.errorMsgCv.visible {
+  display: block;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid $color_error_text;
+}
+
+input:invalid[focused="true"]~.errorMsgCv {
+  display: block;
+}
+
+.careerDetailJobTitle {
+  font-size: 34px;
+  font-family: var(--font-saira);
+  font-weight: 700;
+  color: $color_text_dark_one;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.careerDetailSubTitle {
+  font-size: 18px;
+  font-family: var(--font-saira);
+  font-weight: 500;
+  color: $color_text_dark_three;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.careerDetailsubText {
+  font-size: 15px;
+  color: rgb($color_text_light_three,0.8);
+  font-family: var(--font-saira);
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.listunstyled {
+  text-decoration: none;
+}
+
+.cDetailDivider {
+  width: 100%;
+  border-top: 1px solid rgb($color_text_light_three,0.8);
+  margin-left: 0px;
+  margin-right: auto;
+  z-index: 6;
+}
+
+.cDetailDividerTwo {
+  width: 100%;
+  border-top: 2px solid white;
+  margin-left: 0px;
+  margin-top: 6px;
+  z-index: 3;
+  margin-right: auto;
+}
+
+.aboutTheJobDetail {
+  font-size: 24px;
+  font-weight: 600;
+  color: $color_bg_primary_dark;
+  margin-bottom: 20px;
+  font-family: var(--font-saira);
+}
+
+.subTitlesTheJobDetail {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color:$color_text_light_one;
+  font-family: var(--font-saira);
+}
+
+.careerDetailsubTextTwo {
+  font-size: 15px;
+  font-family: var(--font-saira);
+  font-weight: 400;
+  color: $color_text_light_three;
+  line-height: 30px;
+  letter-spacing: .03em;
+  margin-bottom: 18px;
+  
+  p{
+  font-size: 15px;
+  font-family: var(--font-saira);
+  font-weight: 400;
+  color: $color_text_dark_three;
+  line-height: 30px;
+  letter-spacing: .03em;
+  margin-bottom: 18px;
+  }
+  .ckeditor,h1,h2,h3,h4,h5,h6{
+      color: $color_text_dark_three;
+  }
+}
+
+.CDetailUlItemSetup {
+  color: $color_text_dark_three;
+  font-size: 15px;
+  font-family: var(--font-saira);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .03em;
+  padding-bottom: 12px;
+}
+
+.coinSalaryIcon {
+  color: $color_bg_primary_dark;
+}
+
+.contentCrdSetCareerCdetail {
+  padding: 30px 20px;
+}
+
+.footerCrdThreeTop {
+  padding-top: 140px;
+}
+
+.careerCrdTitleCdetail {
+  font-size: 40px;
+  color: $color_bg_primary_dark_shade;
+  line-height: 2;
+}
+
+.careerCrdTextCdetail {
+  font-size: 16px;
+  font-weight: 400;
+  color: #494949;
+  line-height: 1.5;
+}
+
+.buttonSetUpCdetail {
+  background-color: white;
+  border: none;
+  border-radius: 0px;
+  color: $color_text_light_two;
+  padding: 14px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.CdetailBtnOne {
+  background-color: $color_text_light_two;
+  color: $color_text_dark_three;
+  border: 2px solid white;
+  z-index: 5;
+  font-weight: 600;
+}
+
+.CdetailBtnOne:hover {
+  box-shadow: 0 6px 10px 0 #38383852, 0 19px 30px 0 rgba(53, 52, 52, 0.075);
+}
+
+.cardsCdeatil {
+  position: relative;
+  display: -moz-box;
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: -20%;
+  z-index: 5;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px;
+  border-radius: 0.25rem;
+}
+
+.lineimgCdetail {
+  width: 20%;
+  height: 40px !important;
+  margin-left: 2%;
+}
+
+.cOneCrdImgCdeatil {
+  height: 390px;
+  width: -webkit-fill-available;
+}
+
+.headerTwoButton {
+  background-color: $color_bg_primary_dark !important;
+  color: $color_text_light_one;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border: 1px solid $color_bg_primary_dark;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+#form-file-upload {
+  width: 28rem;
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#input-file-upload {
+  display: none;
+}
+
+#label-file-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 0px;
+  border-style: dashed;
+  background-color: $color_bg_secondary_light_shade !important;
+  border: 1px dashed rgb(219, 219, 219) !important;
+  padding: 3%;
+  margin-top: 15%;
+}
+
+#label-file-upload.drag-active {
+  background-color: #ffffff;
+}
+
+.upload-button {
+  cursor: pointer;
+  padding: 0.25rem;
+  font-size: 1rem;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  background-color: transparent;
+}
+
+.upload-button:hover {
+  text-decoration-line: underline;
+}
+
+#drag-file-element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .containerXxl {
+      padding: 0px 200px 0px 200px;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cardsCdeatil {
+      margin-top: 5%;
+      margin-bottom: -25%;
+      z-index: 5;
+  }
+
+  .careerCrdTitleCdetail {
+      font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .bottom-banner {
+      height: 1160px !important;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .careerCrdTitleCdetail {
+      font-size: 23px;
+  }
+
+  .careerCrdTextCdetail {
+      font-size: 14px;
+  }
+
+  .lineimgCdetail {
+      height: 26px !important;
+  }
+
+  .cardsCdeatil {
+      margin-top: 15%;
+      margin-bottom: -59%;
+      z-index: 5;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 765px) {
+
+  .cardsCdeatil {
+      margin-top: 15%;
+      margin-bottom: -100%;
+      z-index: 5;
+  }
+}
+
+@media screen and (min-width: 225px) and (max-width: 424px) {
+  .careerDetailJobTitle {
+      font-size: 20px;
+  }
+
+  .breadcrumb-item {
+      font-size: 13px;
+  }
+
+  .careerDetailSubTitle {
+      font-size: 15px;
+  }
+
+  .careerDetailsubText {
+      font-size: 10px;
+  }
+
+  .breadcrumb-right-arrow .breadcrumb-item+.breadcrumb-item::before {
+      content: "›";
+      vertical-align: top;
+      font-size: 24px;
+      line-height: 15px;
+      margin-top: 0px;
+      margin-right: 2px;
+  }
+
+  .cardsCdeatil {
+      margin-top: 15%;
+      margin-bottom: -158%;
+      z-index: 5;
+  }
+
+  .careerCrdTitleCdetail {
+      font-size: 22px;
+  }
+
+  .lineimgCdetail {
+      height: 18px !important;
+  }
+
+  .careerCrdTextCdetail {
+      font-size: 12px;
+  }
+
+  .buttonSetUpCdetail {
+      padding: 10px 11px;
+      font-size: 10px;
+      margin: 4px 2px;
+  }
+}
+
+
+
+.modal-content {
+  background-color: transparent!important;
+  border: 0px !important;
+}
+.modal {
+--bs-modal-header-border-color: #3182d3;
+}
+
+.modal-dialog-scrollable .modal-body {
+  overflow-y: auto; 
+}
+.modal-header {
+  border-bottom: 1px solid #070707;
+}
+.modal-body{
+  background: transparent!important;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: rgb($color_text_light_two,0.06) !important;
+  border: 1px solid rgb($color_text_light_two,0.08) !important;
+  border-right: 0px !important;
+}
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+  border: 0px  !important;
+}
+.react-tel-input .flag-dropdown.open .selected-flag {
+  background: transparent !important;
+  border-radius: 3px 0 0 0;
+}
+
+.form-select {
+  display: flex;
+  align-items: center;
+  color:$color_text_light_three !important;
+  background-color:rgb($color_text_light_three,0.01)!important;
+  border: none;
+  outline: none;
+
+
+}
+.form-select:focus {
+  border-color: none !important;
+  box-shadow:none !important;
+  background-color: $color_bg_primary_dark_shade!important;
+  color:$color_text_light_three !important;
+}
+  
+@media (min-width:992px) and (max-width:1299px) {
+  .modal-video {
+      top:10% !important;
+      z-index: 99999999 !important;
+      
+  }
+}
+
+
+.accordion-button:not(.collapsed) {
+  color: $color_bg_primary_dark !important;
+}
+
+// .imgHeight{
+//     height: 168px;
+//     width:395px;
+// }
+.accordion-button:focus {
+  box-shadow: none;
+}
+// .nav-pills .nav-link.active{
+//   background-color: transparent!important;
+//   border-bottom:3px solid  $color_bg_primary_dark !important;
+//   color:#000 !important;
+// }
+
+footer {
+  p{
+      color: $color_text_dark_three;
+  }
+}
+// .about-featue{
+//   margin: 0;
+//   // padding: 0;
+//   list-style: none;
+//   columns: 2;
+//   padding-top: 35px;
+//   @include sm-down-device(){
+//       columns: 1;
+//   }
+//   li{
+//       display: flex;
+//       align-items: center;
+//       gap: 10px;
+//       font-family: var(--font-saira);
+//       font-weight: 400;
+//       font-size: 17px;
+//       letter-spacing: 0.02em;
+//       color: $color_text_light_three;
+//       margin-bottom: 30px;
+//       // &:nth-child(even){
+//       //     margin-bottom: 0;
+//       //     @include sm-down-device(){
+//       //         margin-bottom: 30px;
+//       //     }
+//       // }
+//       &:last-child{
+//           margin-bottom: 0;
+//       }
+//       @include sm-down-device(){
+//           &:last-child{
+//               margin-bottom: 0;
+//           }
+//       }
+//       svg{
+//           fill: $color_bg_primary_dark;
+//           stroke: $color_bg_primary_dark
+//       }
+//   }
+// }
+
+
+.subnav.active{
+  background-color: transparent !important;
+  border-bottom: 2px solid $color_bg_primary_dark !important;
+  color: $color_bg_primary_dark !important;
+  border-radius: 0 !important;
+}
+.planeIcon{
+  svg{
+      color: $color_bg_primary_dark;
+  }
+}
+
+// .accordion-button::after{
+//     background-image: none;
+// }
+.accordion-button::after {
+  background-image: url("/assets/img/icons8-down-arrow-48.png");
+}
+
+
+
+
+

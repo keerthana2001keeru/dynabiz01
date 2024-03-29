@@ -1,0 +1,9 @@
+.containerSet {
+    padding: 60px 100px 40px 100px;
+}
+
+@media screen and (min-width: 225px) and (max-width: 425px) {
+    .containerSet {
+        padding: 60px 26px 40px 26px;
+    }
+}

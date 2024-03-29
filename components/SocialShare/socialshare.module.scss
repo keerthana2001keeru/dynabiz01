@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+.setFabIconColor {
+    color: $color_bg_primary_dark !important;
+    font-size: 20px
+}
+
+.iconConfigSet {
+    padding: 80px 0px 50px 0px;
+}
+
+.listDot {
+    list-style-type: none;
+    padding: 0px;
+    gap: 40px;
+}

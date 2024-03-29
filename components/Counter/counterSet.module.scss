@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+.CrdSetup {
+    border: 0px !important;
+}
+
+.CrdMainContent {
+    font-size: 40px;
+    color: $color_bg_primary_dark;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.CrdSubContent {
+    font-size: 18px;
+    color: $color_text_dark_one;
+}
+
+.CrdContentSet {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

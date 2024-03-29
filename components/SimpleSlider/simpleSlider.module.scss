@@ -1,0 +1,83 @@
+@import "../../styles/variables.scss";
+.title {
+    font-size: 30px;
+    font-weight: 200;
+    color: $color_text_dark_one;
+    padding-top: 88px;
+}
+
+.hEhtDes {
+    font-size: 20px;
+    color: $color_text_dark_two;
+    line-height: 1.7;
+    font-weight: 200;
+    font-style: italic;
+    padding: 20px 40px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 3;
+}
+
+.nameSection {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: $color_text_dark_one;
+    padding-top: 6px;
+}
+
+.desigSection {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: $color_text_dark_two;
+}
+
+.hEhtContentSet {
+    padding: 10px 174px 50px 174px
+}
+
+.carouselIndicator {
+    bottom: -98px;
+}
+
+.arrowBg {
+    background: transparent;
+    border: 1px solid $color_text_dark_two;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+.arrowStyle {
+    color: $color_text_dark_two;
+}
+
+.carouselControl {
+    bottom: 50% !important;
+}
+
+@media screen and (min-width: 225px) and (max-width: 768px) {
+    .hEhtContentSet {
+        padding: 10px 40px 50px 40px;
+    }
+
+    .hEhtDes {
+        font-size: 15px;
+
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+       -webkit-line-clamp: 5;
+
+    }
+
+    .arrowBg {
+        padding: 5px;
+    }
+}

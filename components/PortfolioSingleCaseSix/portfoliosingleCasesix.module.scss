@@ -1,0 +1,86 @@
+@import "../../styles/variables.scss";
+.imgs {
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    color: $color_bg_primary_dark;
+    padding-bottom: 30px;
+}
+
+.description {
+    font-size: 16px;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+.descriptionTwo {
+    font-size: 20px;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+    padding-bottom: 30px;
+}
+
+.setContentGrp {
+    padding: 40px 25px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .setContentGrp {
+        padding: 10px 10px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .descriptionTwo {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .setContentGrp {
+        padding: 10px 10px;
+    }
+
+    .title {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .descriptionTwo {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 425px) {
+    .title {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .descriptionTwo {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+}

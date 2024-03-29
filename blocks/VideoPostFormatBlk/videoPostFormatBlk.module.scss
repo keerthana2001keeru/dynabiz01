@@ -1,0 +1,12 @@
+.postFormat {
+    max-width: 78%;
+    margin: auto;
+}
+
+@media screen and (min-width: 225px) and (max-width: 768px) {
+
+    .postFormat {
+        max-width: 100%;
+        margin: auto;
+    }
+}

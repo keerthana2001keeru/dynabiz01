@@ -1,0 +1,60 @@
+@import "../../styles/variables.scss";
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    color: $color_bg_primary_dark;
+    padding-bottom: 26px;
+    letter-spacing: 1px;
+}
+
+.highlightSection {
+    color: $color_text_dark_one;
+}
+
+.desSection {
+    padding-right: 25px;
+}
+
+.desOne {
+    font-size: 20px;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+    padding-bottom: 10px;
+}
+
+.desOneSub {
+    font-size: 16px;
+    color: $color_text_dark_three;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .title {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .desOne {
+        font-size: 15px;
+    }
+
+    .desOneSub {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 425px) {
+    .title {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .desOne {
+        font-size: 15px;
+    }
+
+    .desOneSub {
+        font-size: 12px;
+    }
+}

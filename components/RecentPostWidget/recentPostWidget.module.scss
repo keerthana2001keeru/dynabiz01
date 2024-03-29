@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+.title {
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.sectionSetup {
+    margin-bottom: 50px;
+}
+
+.hiddenIcon {
+    display: none;
+    color: #3e4494;
+}
+
+.iconVisible:hover .hiddenIcon {
+    display: inline-block;
+}
+
+.linkItems {
+    color: #3e4494;
+    font-weight: 400;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+
+    &:hover {
+        padding-left: 10px;
+        transition: 0.2s ease;
+        color: #818a97;
+    }
+}
+
+.active {
+    padding-left: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #818a97;
+    font-weight: 400;
+}
+
+.activeIcon {
+    display: inline-block;
+    color: #3e4494;
+}

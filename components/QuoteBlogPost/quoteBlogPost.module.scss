@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+
+.contentStyle {
+    padding: 50px 60px 40px;
+    background-color: #154b97;
+}
+
+.description {
+    font-size: 18px;
+    font-style: italic;
+    color: $color_text_light_one;
+    font-weight: 300;
+}
+
+.icon {
+    color: $color_text_light_one;
+    float: left;
+    font-size: 40px;
+    line-height: 1;
+    margin-right: 35px;
+}
+
+.endText {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: 700;
+    color: $color_text_light_one;
+}

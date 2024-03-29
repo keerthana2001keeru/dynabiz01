@@ -1,0 +1,26 @@
+
+@import "../../styles/variables.scss";
+.twoSectionCard {
+    width: 100%;
+    background-color: $color_text_light_one;
+    padding: 60px 30px 35px 30px !important;
+    border: 0px;
+}
+
+.twoSectionCardImg {
+    width: 60px;
+    height: 60px;
+}
+
+.twoSectionCardTitle {
+    font-size: 20px;
+    color: #f17d44;
+    text-transform: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.twoSectionCardDes {
+    color: $color_text_dark_two;
+    line-height: 1.5;
+}

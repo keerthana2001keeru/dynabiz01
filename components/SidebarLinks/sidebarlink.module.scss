@@ -1,0 +1,79 @@
+// .containerStyle {
+//     padding: 60px;
+// }
+@import "../../styles/variables.scss";
+.sectionTitle {
+    font-size: 24px;
+    font-weight: 600;
+
+color:$color_text_dark_one ;
+}
+
+.hiddenIcon {
+    display: none;
+    color: $color_bg_primary_dark;
+}
+
+.iconVisible:hover .hiddenIcon {
+    display: inline-block;
+}
+
+.linkItems {
+    color: $color_bg_primary_dark;
+    font-weight: 400;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    &:hover {
+        padding-left: 10px;
+        transition: 0.2s ease;
+        color: $color_text_dark_one;
+    }
+}
+
+.active {
+    padding-left: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: $color_text_dark_one;
+    font-weight: 400;
+}
+
+.activeIcon {
+    display: inline-block;
+    color: $color_text_dark_one;
+}
+
+.cardstyle {
+    background-color: $color_bg_primary_dark;
+    border: 0px;
+    border-radius: 3px;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.cardbody {
+    padding: 45px;
+}
+
+.crdTitle {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $color_text_light_one;
+}
+
+.crdtext {
+    color: $color_text_dark_one;
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.fileIcon {
+    font-size: 13px;
+    margin-left: 10px;
+    color: #f68b46;
+}

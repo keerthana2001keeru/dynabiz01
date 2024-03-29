@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+
+.BlkContainer {
+    padding: 90px 0px 20px 0px;
+}
+
+.tDivider {
+    width: 5%;
+    border-top: 2px solid;
+    margin-left: 0px;
+    margin-right: auto;
+    color: #0a0a0a;
+    margin-bottom: 5%;
+}
+
+.sectionTitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    letter-spacing: 2px;
+    color:$color_text_dark_one;
+}
+
+.headSection {
+    padding-left: 60px;
+}

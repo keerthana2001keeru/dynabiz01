@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+
+.text {
+    font-weight: 300;
+    line-height: 1.8;
+    color: $color_text_dark_three;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 8;
+}

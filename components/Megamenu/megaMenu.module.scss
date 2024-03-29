@@ -1,0 +1,247 @@
+@import "../../styles/variables.scss";
+.navbarTransparent {
+    background-color: rgba($color: #262738, $alpha: 0.8);
+    z-index: 3;
+}
+
+.navbarTransparentTwo {
+    background-color: #262738;
+    z-index: 3;
+}
+
+.homeIcon {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.setNavLinkColor {
+    color: $color_text_light_two !important;
+    font-size: large;
+    padding-right: 20px !important;
+}
+
+.setNavLinkActive {
+    color: $color_text_light_one !important;
+    font-size: large;
+    padding-right: 20px !important;
+}
+
+.containersetup {
+    padding-top: 5%;
+}
+
+.setWidthIconSet {
+    width: 80px;
+}
+
+.iconSetup {
+    color: $color_text_light_one;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.offcanvasSetup {
+    position: fixed;
+    bottom: 0;
+    z-index: 1050;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: rgb(36, 36, 36);
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.offcanvas_end {
+    top: 0;
+    right: 0;
+    width: 60%;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+// ############################################################################
+
+.dropdownMenu {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: max-content;
+    background-color: #edf2f9 !important;
+}
+
+.dropDownMenus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+    border-radius: 0;
+    top: 45px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: max-content;
+    background-color: #edf2f9 !important;
+}
+
+.listDropdownItems {}
+
+.ktmMegaMenu {
+    position: static;
+}
+
+.ktmMenu {
+    position: relative;
+}
+
+.ktmMegaMenu:hover .dropdownMenu {
+    display: block;
+}
+
+.ktmMenu:hover .dropdownMenu {
+    display: block;
+}
+
+.dropdownMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdownMenu li .dropdownItem {
+    color: gray;
+    font-size: 14px;
+    padding: 0.5em 1em;
+}
+
+.dropdownMenu li .dropdownItem:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdownMenu li:first-child a {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #101f41;
+}
+
+.dropdownMenu li:first-child a:hover {
+    background-color: #f1f1f1;
+}
+
+.ktmMenu:hover .dropDownMenus {
+    display: block;
+}
+
+.dropDownMenus li {
+    position: relative;
+}
+
+.dropDownMenus .subMenus {
+    display: none;
+    position: absolute;
+    left: 99%;
+    top: -5px;
+}
+
+.dropDownMenus>li:hover>.subMenus {
+    display: block;
+}
+
+.dropDownMenus li .dropdownItem {
+    color: gray;
+    font-size: 14px;
+    padding: 0.5em 1em;
+}
+
+.dropDownMenus li .dropdownItem:hover {
+    background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 992px) {
+    .dropdownMenu.show {
+        flex-wrap: wrap;
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .dropdownMenu.show {
+        flex-wrap: wrap;
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .dropdown:hover .dropdownMenu {
+        width: 40vw;
+        flex-wrap: wrap;
+    }
+}
+
+// ############################################################################
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .containersetup {
+        padding-top: 2%;
+    }
+
+    .setNavLinkColor {
+        font-size: 23px;
+    }
+
+    .setNavLinkActive {
+        font-size: 23px;
+    }
+
+    .setWidthIconSet {
+        width: 120px;
+    }
+
+    .iconSetup {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .containersetup {
+        padding-top: 2%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 980px) {
+    .containersetup {
+        padding-top: 0;
+        background-color: #101f41;
+    }
+
+    .logoSetup {
+        width: 150px;
+    }
+
+    .setNavLinkColor {
+        font-size: 16px;
+    }
+
+    .setNavLinkActive {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .logoSetup {
+        width: 98px;
+    }
+
+    .setNavLinkColor {
+        font-size: 14px;
+    }
+
+    .setNavLinkActive {
+        font-size: 14px;
+    }
+}
+

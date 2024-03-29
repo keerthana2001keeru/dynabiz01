@@ -1,0 +1,64 @@
+@import "../../styles/variables.scss";
+.sectoinContentGrp {
+    padding: 95px 20px 85px 50px !important;
+}
+
+.sectionTitle {
+    font-size: 36px;
+    color: $color_text_light_one;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 27px;
+}
+
+.sectionDes {
+    font-size: 19px;
+    color: $color_text_light_two;
+    font-weight: 200;
+    line-height: 1.6;
+    font-family: "Montserrat", sans-serif;
+}
+
+.buttonSetUp {
+    background-color: $color_text_light_one;
+    border: none;
+    border-radius: 40px;
+    color: $color_bg_primary_dark;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btnOne {
+    background-color: $color_text_light_one;
+    color: $color_bg_primary_dark;
+    font-weight: 500;
+}
+
+.btnOne:hover {
+    box-shadow: 0 6px 10px 0 $color_text_light_two, 0 19px 30px 0 $color_text_light_one;
+}
+
+.btnSetupstyle {
+    // padding-top: 22px;
+    position: relative;
+}
+
+.BtnCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 225px) and (max-width: 767px) {
+    .BtnCenter {
+        left: 0%;
+        transform: translate(-0%, -0%);
+    }
+}

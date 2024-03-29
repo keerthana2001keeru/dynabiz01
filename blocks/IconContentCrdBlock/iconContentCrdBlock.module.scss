@@ -1,0 +1,9 @@
+.bgImage {
+    height: 440px;
+}
+
+@media screen and (min-width: 225px) and (max-width: 768px) {
+    .bgImage {
+        height: auto;
+    }
+}

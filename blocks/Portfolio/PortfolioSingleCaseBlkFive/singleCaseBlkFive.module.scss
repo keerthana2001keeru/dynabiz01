@@ -1,0 +1,15 @@
+.setStyleCmp {
+    margin-left: 50%;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .setStyleCmp {
+        margin: 0% 5%;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 425px) {
+    .setStyleCmp {
+        margin: 0% 5%;
+    }
+}

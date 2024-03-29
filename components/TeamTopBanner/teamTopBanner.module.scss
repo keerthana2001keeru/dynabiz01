@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.sectionSetup {
+    padding: 80px 0px 50px 0px;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: $color_text_light_one;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+}
+
+@media screen and (min-width: 225px) and (max-width: 767px) {
+    .title {
+        font-size: 38px;
+        text-align: center;
+    }
+}

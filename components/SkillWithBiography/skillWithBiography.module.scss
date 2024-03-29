@@ -1,0 +1,69 @@
+.mainContainerSet {
+    padding: 80px 30px 30px 30px;
+}
+@import "../../styles/variables.scss";
+.mainContainerSetTwo {
+    padding: 0px 30px 30px 30px;
+}
+
+.mainContent {
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #7a7a7a;
+    font-size: 17px;
+}
+
+.progressHeading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 12px;
+    color: $color_bg_primary_dark;
+    margin-bottom: 12px;
+    margin-top: 6%;
+}
+
+.progressContainer {
+    margin: 8% 0%;
+    color: #b7bfca9c;
+}
+
+.progressSection {
+    padding: 0px 40px;
+}
+
+.mainTitle {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: $color_bg_primary_dark;
+    margin-bottom: 5%;
+}
+
+.mainTitleTwo {
+    @extend .mainTitle;
+    margin-bottom: 2%;
+}
+
+.chronologySection {
+    margin: 2% 0%;
+}
+
+.workPlace {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: none;
+    color: $color_bg_primary_dark;
+    line-height: 1.8;
+}
+
+.workCompny {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: #747474;
+    line-height: 1.8;
+}

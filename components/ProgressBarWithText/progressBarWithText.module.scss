@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+.containerPadding {
+    padding: 120px 20px 70px 20px;
+}
+
+.title {
+    font-size: 39px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: $color_text_light_one;
+    line-height: 1.4;
+    padding-bottom: 16px;
+}
+
+.content {
+    color: $color_text_light_two;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+   -webkit-line-clamp: 4;
+
+}
+
+.progressHeading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 12px;
+    color: $color_text_light_one;
+    margin-bottom: 12px;
+    margin-top: 6%;
+}
+
+.progressContainer {
+    margin: 18% 3%;
+}
+
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+    .progressContainer {
+        margin: 3% 2%;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .progressContainer {
+        margin: 3% 2%;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (min-width: 225px) and (max-width: 768px) {
+    .progressContainer {
+        margin: 3% 2%;
+    }
+}
